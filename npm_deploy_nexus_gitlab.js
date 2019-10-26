@@ -16,7 +16,7 @@ const logger = loggerFn();
 const gitlabRunInfo = utils.getInfoFromGitlabCi();
 const publishConfig  =  { "registry": "http://xxxnexus.net/repository/scope/"};
 
-// lunix:copy vi ~/.npmrc
+// linux:copy vi ~/.npmrc
 const  npmrcText = `registry=http://xxxnexus.net/repository/scope/
 //xxxnexus.net/repository/scope/:_authToken=NpmToken.xxx
 `
